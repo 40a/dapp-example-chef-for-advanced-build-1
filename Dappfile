@@ -9,7 +9,7 @@ dimg do
 
   chef do
     cookbook 'apt'
-    cookbook 'rvm', github: 'fnichol/chef-rvm'
+    cookbook 'rvm'
 
     recipe 'ruby'
     recipe 'bundle_gems'
